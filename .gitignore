@@ -1,0 +1,27 @@
+# 编译缓存（含嵌入绝对路径，绝不上传）
+__pycache__/
+*.pyc
+*.pyo
+
+# 备份文件（可能含本机配置）
+*.bak
+*.bak-*
+settings.json.bak
+
+# 日志与运行时状态（含会话/PID，绝不上传）
+*.log
+watchdog.log
+bridge-stdout.log
+.tg-triggered
+.agent-triggered
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 隐私文件，绝不入库
+telegram.json
+auth.json
+hosts.yml
